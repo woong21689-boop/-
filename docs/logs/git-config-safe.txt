@@ -1,0 +1,3 @@
+user.name=userwoong2168
+user.email=[MASKED]
+init.defaultbranch=main
