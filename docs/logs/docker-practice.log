@@ -1,0 +1,195 @@
+Script started on 2026-10-30 21:42:46+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ docker --version
+[?2004lDocker version 29.9.2, build a82e528
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ docker info
+[?2004lClient:
+ Version:    29.9.2
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  agent: Docker AI Agent Runner (Docker Inc.)
+    Version:  v1.152.0
+    Path:     /usr/local/lib/docker/cli-plugins/docker-agent
+  ai: Docker AI Agent - Ask Gordon (Docker Inc.)
+    Version:  v1.33.0
+    Path:     /usr/local/lib/docker/cli-plugins/docker-ai
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.38.1
+    Path:     /usr/local/lib/docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v5.6.1
+    Path:     /usr/local/lib/docker/cli-plugins/docker-compose
+  debug: Get a shell into any image or container (Docker Inc.)
+    Version:  0.49.0
+    Path:     /usr/local/lib/docker/cli-plugins/docker-debug
+  desktop: Docker Desktop commands (Docker Inc.)
+    Version:  4.97.0
+    Path:     /usr/local/lib/docker/cli-plugins/docker-desktop
+  dhi: CLI for managing Docker Hardened Images (Docker Inc.)
+    Version:  v0.0.9
+    Path:     /usr/local/lib/docker/cli-plugins/docker-dhi
+  extension: Manages Docker extensions (Docker Inc.)
+    Version:  v0.2.32
+    Path:     /usr/local/lib/docker/cli-plugins/docker-extension
+  init: Creates Docker-related starter files for your project (Docker Inc.)
+    Version:  v1.4.1
+    Path:     /usr/local/lib/docker/cli-plugins/docker-init
+  mcp: Docker MCP Plugin (Docker Inc.)
+    Version:  v0.44.2
+    Path:     /usr/local/lib/docker/cli-plugins/docker-mcp
+  model: Docker Model Runner (Docker Inc.)
+    Version:  v1.2.9
+    Path:     /usr/local/lib/docker/cli-plugins/docker-model
+  offload: Docker Offload (Docker Inc.)
+    Version:  v0.7.21
+    Path:     /usr/local/lib/docker/cli-plugins/docker-offload
+  pass: Docker Pass Secrets Manager Plugin (beta) (Docker Inc.)
+    Version:  v0.3.2
+    Path:     /usr/local/lib/docker/cli-plugins/docker-pass
+  sandbox: "docker sandbox" is deprecated, use Docker Sandboxes instead (Docker Inc.)
+    Version:  v0.13.0
+    Path:     /usr/local/lib/docker/cli-plugins/docker-sandbox
+  scout: Docker Scout (Docker Inc.)
+    Version:  v1.27.0
+    Path:     /usr/local/lib/docker/cli-plugins/docker-scout
+
+Server:
+ Containers: 0
+  Running: 0
+  Paused: 0
+  Stopped: 0
+ Images: 1
+ Server Version: 29.9.2
+ Storage Driver: overlayfs
+  driver-type: io.containerd.snapshotter.v1
+ Logging Driver: local
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+ CDI spec directories:
+  /etc/cdi
+  /var/run/cdi
+ Discovered Devices:
+  cdi: docker.com/gpu=webgpu
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 nvidia runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: b7a25261e029d68978bbf290df0a62fc819b3c51
+ runc version: v1.5.2-0-g29dd3dc2
+ init version: de40ad0
+ Security Options:
+  seccomp
+   Profile: builtin
+  cgroupns
+ Kernel Version: 6.18.54.1-microsoft-standard-WSL2
+ Operating System: Docker Desktop
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 8
+ Total Memory: 7.605GiB
+ Name: docker-desktop
+ ID: b249da4c-081f-48e4-b736-fc49e46ec684
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ HTTP Proxy: http.docker.internal:3128
+ HTTPS Proxy: http.docker.internal:3128
+ No Proxy: hubproxy.docker.internal
+ Labels:
+  com.docker.desktop.address=unix:///var/run/docker-cli.sock
+ Experimental: false
+ Insecure Registries:
+  hubproxy.docker.internal:5555
+  127.0.0.0/8
+  ::1/128
+ Live Restore Enabled: false
+ Firewall Backend: iptables
+
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ docker images
+[?2004l                                                                                                    [1m[106m[30mi[0m[0m [96mInfo → [0m[0m [38;5;0m[48;5;14m U [0m In Use
+[39m[1mIMAGE[0m                [39m[1mID[0m             [39m[1mDISK USAGE[0m   [39m[1mCONTENT SIZE[0m   [39m[1mEXTRA[0m
+[34m[1mhello-world:latest[0m   [39mc567b231f656[0m       [39m25.9kB[0m         [39m9.49kB[0m        
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ docker ps
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ docker ps -a
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ ls[K[Kis[K[Kls -lh do[K[K[K[K[K[K[K[K[K1[Kls -lh docs/logs/docker-practice,[K.log
+[?2004l-rw-r--r-- 1 userwoong2168 userwoong2168 4.0K Oct 30 21:43 docs/logs/docker-practice.log
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ docker pull un[Kbuntu:24.04
+[?2004l24.04: Pulling from library/ubuntu
+
+[1A[2K7a48b8f0e5c7: Pulling fs layer [1B[1A[2K7a48b8f0e5c7: Downloading [=>                                                 ]  1.049MB/29.77MB[1B[1A[2K7a48b8f0e5c7: Downloading [===>                                               ]  2.097MB/29.77MB[1B[1A[2K7a48b8f0e5c7: Downloading [=====>                                             ]  3.146MB/29.77MB[1B[1A[2K7a48b8f0e5c7: Downloading [=======>                                           ]  4.194MB/29.77MB[1B[1A[2K7a48b8f0e5c7: Downloading [=======>                                           ]  4.194MB/29.77MB[1B[1A[2K7a48b8f0e5c7: Downloading [========>                                          ]  5.243MB/29.77MB[1B
+[1A[2K98144013299c: Downloading [===========================>                       ]  1.049MB/1.938MB[1B[2A[2K7a48b8f0e5c7: Downloading [==========>                                        ]  6.291MB/29.77MB[2B[1A[2K98144013299c: Download complete [1B[2A[2K7a48b8f0e5c7: Downloading [============>                                      ]   7.34MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [==============>                                    ]  8.389MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [===============>                                   ]  9.437MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [=================>                                 ]  10.49MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [===================>                               ]  11.53MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [======================>                            ]  13.63MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [========================>                          ]  14.68MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [==========================>                        ]  15.73MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [============================>                      ]  16.78MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [=============================>                     ]  17.83MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [===============================>                   ]  18.87MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [=================================>                 ]  19.92MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [===================================>               ]  20.97MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [======================================>            ]  23.07MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [========================================>          ]  24.12MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [==========================================>        ]  25.17MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [============================================>      ]  26.21MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [=============================================>     ]  27.26MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Downloading [===============================================>   ]  28.31MB/29.77MB[2B[2A[2K7a48b8f0e5c7: Download complete [2B[2A[2K7a48b8f0e5c7: Extracting 1 s[2B[2A[2K7a48b8f0e5c7: Extracting 1 s[2B[2A[2K7a48b8f0e5c7: Extracting 1 s[2B[2A[2K7a48b8f0e5c7: Extracting 1 s[2B[2A[2K7a48b8f0e5c7: Extracting 1 s[2B[2A[2K7a48b8f0e5c7: Extracting 1 s[2B[2A[2K7a48b8f0e5c7: Extracting 1 s[2B[2A[2K7a48b8f0e5c7: Pull complete [2BDigest: sha256:fe81560990fae86dc4743202b2cb4d3df98d0bcf949173cecef15ce1127ef852
+Status: Downloaded newer image for ubuntu:24.04
+docker.io/library/ubuntu:24.04
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ docker run -it --name ubuntu-lab ubuntu:23.04 bash
+[?2004lUnable to find image 'ubuntu:23.04' locally
+23.04: Pulling from library/ubuntu
+
+[1A[2K6360b3717211: Pulling fs layer [1B[1A[2K6360b3717211: Downloading [=>                                                 ]  1.049MB/26.89MB[1B[1A[2K6360b3717211: Downloading [===>                                               ]  2.097MB/26.89MB[1B[1A[2K6360b3717211: Downloading [=====>                                             ]  3.146MB/26.89MB[1B[1A[2K6360b3717211: Downloading [=======>                                           ]  4.194MB/26.89MB[1B[1A[2K6360b3717211: Downloading [===========>                                       ]  6.291MB/26.89MB[1B[1A[2K6360b3717211: Downloading [=============>                                     ]   7.34MB/26.89MB[1B[1A[2K6360b3717211: Downloading [===============>                                   ]  8.389MB/26.89MB[1B[1A[2K6360b3717211: Downloading [=================>                                 ]  9.437MB/26.89MB[1B[1A[2K6360b3717211: Downloading [===================>                               ]  10.49MB/26.89MB[1B[1A[2K6360b3717211: Downloading [=====================>                             ]  11.53MB/26.89MB[1B[1A[2K6360b3717211: Downloading [=======================>                           ]  12.58MB/26.89MB[1B[1A[2K6360b3717211: Downloading [=========================>                         ]  13.63MB/26.89MB[1B[1A[2K6360b3717211: Downloading [=============================>                     ]  15.73MB/26.89MB[1B[1A[2K6360b3717211: Downloading [===============================>                   ]  16.78MB/26.89MB[1B[1A[2K6360b3717211: Downloading [=================================>                 ]  17.83MB/26.89MB[1B[1A[2K6360b3717211: Downloading [===================================>               ]  18.87MB/26.89MB[1B[1A[2K6360b3717211: Downloading [=====================================>             ]  19.92MB/26.89MB[1B[1A[2K6360b3717211: Downloading [=======================================>           ]  20.97MB/26.89MB[1B[1A[2K6360b3717211: Downloading [========================================>          ]  22.02MB/26.89MB[1B[1A[2K6360b3717211: Downloading [==========================================>        ]  23.07MB/26.89MB[1B[1A[2K6360b3717211: Downloading [==============================================>    ]  25.17MB/26.89MB[1B[1A[2K6360b3717211: Downloading [================================================>  ]  26.21MB/26.89MB[1B[1A[2K6360b3717211: Download complete [1B[1A[2K6360b3717211: Extracting 1 s[1B[1A[2K6360b3717211: Extracting 1 s[1B[1A[2K6360b3717211: Extracting 1 s[1B[1A[2K6360b3717211: Extracting 1 s[1B[1A[2K6360b3717211: Extracting 1 s[1B[1A[2K6360b3717211: Extracting 1 s[1B[1A[2K6360b3717211: Pull complete [1BDigest: sha256:5a828e28de105c3d7821c4442f0f5d1c52dc16acf4999d5f31a3bc0f03f06edd
+Status: Downloaded newer image for ubuntu:23.04
+[?2004h]0;root@e16e0a2da43b: /root@e16e0a2da43b:/# pwd
+[?2004l/
+[?2004h]0;root@e16e0a2da43b: /root@e16e0a2da43b:/# ls -la
+[?2004ltotal 56
+drwxr-xr-x   1 root root 4096 Oct 30 12:48 [0m[01;34m.[0m
+drwxr-xr-x   1 root root 4096 Oct 30 12:48 [01;34m..[0m
+-rwxr-xr-x   1 root root    0 Oct 30 12:48 [01;32m.dockerenv[0m
+lrwxrwxrwx   1 root root    7 Nov 28  2023 [01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root 4096 Apr 14  2023 [01;34mboot[0m
+drwxr-xr-x   5 root root  360 Oct 30 12:48 [01;34mdev[0m
+drwxr-xr-x   1 root root 4096 Oct 30 12:48 [01;34metc[0m
+drwxr-xr-x   3 root root 4096 Nov 28  2023 [01;34mhome[0m
+lrwxrwxrwx   1 root root    7 Nov 28  2023 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root    9 Nov 28  2023 [01;36mlib32[0m -> [01;34musr/lib32[0m
+lrwxrwxrwx   1 root root    9 Nov 28  2023 [01;36mlib64[0m -> [01;34musr/lib64[0m
+lrwxrwxrwx   1 root root   10 Nov 28  2023 [01;36mlibx32[0m -> [01;34musr/libx32[0m
+drwxr-xr-x   2 root root 4096 Nov 28  2023 [01;34mmedia[0m
+drwxr-xr-x   2 root root 4096 Nov 28  2023 [01;34mmnt[0m
+drwxr-xr-x   2 root root 4096 Nov 28  2023 [01;34mopt[0m
+dr-xr-xr-x 221 root root    0 Oct 30 12:48 [01;34mproc[0m
+drwx------   2 root root 4096 Nov 28  2023 [01;34mroot[0m
+drwxr-xr-x   5 root root 4096 Nov 28  2023 [01;34mrun[0m
+lrwxrwxrwx   1 root root    8 Nov 28  2023 [01;36msbin[0m -> [01;34musr/sbin[0m
+drwxr-xr-x   2 root root 4096 Nov 28  2023 [01;34msrv[0m
+dr-xr-xr-x  12 root root    0 Oct 30 12:48 [01;34msys[0m
+drwxrwxrwt   2 root root 4096 Nov 28  2023 [30;42mtmp[0m
+drwxr-xr-x  14 root root 4096 Nov 28  2023 [01;34musr[0m
+drwxr-xr-x  11 root root 4096 Nov 28  2023 [01;34mvar[0m
+[?2004h]0;root@e16e0a2da43b: /root@e16e0a2da43b:/# echo "docker ubuntu[1P[1@"[1P[1@Docker ubu[1P[1@ [1P[1@Ubuntu Test > /tmp/result.txt
+[?2004l[?2004h> cat /tmp/result.txt
+[?2004l[?2004h> " ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@e16e0a2da43b: /root@e16e0a2da43b:/# echo "docke     [7mecho "Docker Ubuntu Test" > /tmp/result.txt[27mecho "Docker Ubuntu Test" > /tmp/result.txt
+[?2004l[?2004h> c
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@e16e0a2da43b: /root@e16e0a2da43b:/# [7mecho Docker_Test > /tmp/result.txt[27mecho Docker_Test > /tmp/result.txt
+[?2004l[?2004h]0;root@e16e0a2da43b: /root@e16e0a2da43b:/# [K[7mcat /tmp/result.txt[27m[19@cat /tmp/result.txt[7mcat /tmp/result.txt[27m                   
+[?2004lDocker_Test
+[?2004h]0;root@e16e0a2da43b: /root@e16e0a2da43b:/# [K[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ ^[[200~docker ps --filter name=ubuntu-lab~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdocker ps --filter name=ubuntu-lab
+[?2004lCONTAINER ID   IMAGE          COMMAND   CREATED         STATUS         PORTS     NAMES
+e16e0a2da43b   ubuntu:23.04   "bash"    8 minutes ago   Up 8 minutes             ubuntu-lab
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ docker exec -it unbu[K[K[Kbuntu-lab bash
+[?2004l[?2004h]0;root@e16e0a2da43b: /root@e16e0a2da43b:/# ^?[K[7mcat /tmp/result.txt[27mcat /tmp/result.txt
+[?2004lDocker_Test
+[?2004h]0;root@e16e0a2da43b: /root@e16e0a2da43b:/# exit
+[?2004lexit
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ ^[[200~docker ps --filter name=ubuntu-lab~[K[1P[1P[1P[1P[2P[1P
+[?2004lCONTAINER ID   IMAGE          COMMAND   CREATED          STATUS          PORTS     NAMES
+e16e0a2da43b   ubuntu:23.04   "bash"    13 minutes ago   Up 13 minutes             ubuntu-lab
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ docker attatch unbutu-lab
+[?2004ldocker: unknown command: docker attatch
+
+Run 'docker --help' for more information
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ ^?[Kdocker attach un[Kbuntu-lab
+[?2004l[K]0;root@e16e0a2da43b: /root@e16e0a2da43b:/# [K]0;root@e16e0a2da43b: /root@e16e0a2da43b:/# exit
+[?2004lexit
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ docker ps -a --filter name=ubuntu-lab
+[?2004lCONTAINER ID   IMAGE          COMMAND   CREATED          STATUS                      PORTS     NAMES
+e16e0a2da43b   ubuntu:23.04   "bash"    25 minutes ago   Exited (0) 28 seconds ago             ubuntu-lab
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ ^V[Kexit
+[?2004lexit
+
+Script done on 2026-10-30 22:20:36+09:00 [COMMAND_EXIT_CODE="0"]

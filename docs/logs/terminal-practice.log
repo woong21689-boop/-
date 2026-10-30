@@ -1,0 +1,92 @@
+Script started on 2026-10-30 20:38:14+09:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="29"]
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ [7mcd practice[27mcd practice
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice[00m$ pwd
+[?2004l/home/userwoong2168/dev-workstation-environment/practice
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice[00m$ [7mmkdir -p test_dir/sub_dir[27mmkdir -p test_dir/sub_dir
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice[00m$ [7mls -la[27mls -la
+[?2004ltotal 12
+drwxr-xr-x 3 userwoong2168 userwoong2168 4096 Oct 30 20:39 [0m[01;34m.[0m
+drwxr-xr-x 5 userwoong2168 userwoong2168 4096 Oct 30 20:34 [01;34m..[0m
+drwxr-xr-x 3 userwoong2168 userwoong2168 4096 Oct 30 20:39 [01;34mtest_dir[0m
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice[00m$ [7mcd test_dir[27mcd test_dir
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ pwd
+[?2004l/home/userwoong2168/dev-workstation-environment/practice/test_dir
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mtouch sample.txt[27mtouch sample.txt
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mecho "Hello Linux" > sample.txt[27mecho "Hello Linux" > sample.txt
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mcat sample.txt[27mcat sample.txt
+[?2004lHello Linux
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mtouch .hidden_config[27mtouch .hidden_config
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mls -la[27mls -la
+[?2004ltotal 16
+drwxr-xr-x 3 userwoong2168 userwoong2168 4096 Oct 30 20:42 [0m[01;34m.[0m
+drwxr-xr-x 3 userwoong2168 userwoong2168 4096 Oct 30 20:39 [01;34m..[0m
+-rw-r--r-- 1 userwoong2168 userwoong2168    0 Oct 30 20:42 .hidden_config
+-rw-r--r-- 1 userwoong2168 userwoong2168   12 Oct 30 20:41 sample.txt
+drwxr-xr-x 2 userwoong2168 userwoong2168 4096 Oct 30 20:39 [01;34msub_dir[0m
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7m~/dev-workstation-environment/practice/test_dir[27m~/dev-workstation-environment/practice/test_dir
+[?2004lbash: /home/userwoong2168/dev-workstation-environment/practice/test_dir: Is a directory
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mcp sample.txt sample_copy.txt[27mcp sample.txt sample_copy.txt
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mls -l[27mls -l
+[?2004ltotal 12
+-rw-r--r-- 1 userwoong2168 userwoong2168   12 Oct 30 20:41 sample.txt
+-rw-r--r-- 1 userwoong2168 userwoong2168   12 Oct 30 20:47 sample_copy.txt
+drwxr-xr-x 2 userwoong2168 userwoong2168 4096 Oct 30 20:39 [0m[01;34msub_dir[0m
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mcat sample_copy.txt[27mcat sample_copy.txt
+[?2004lHello Linux
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mmv sample_copy.txt sub_dir/renamed_sample.txt[27mmv sample_copy.txt sub_dir/renamed_sample.txt
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mls -la sub_dir[27mls -la sub_dir
+[?2004ltotal 12
+drwxr-xr-x 2 userwoong2168 userwoong2168 4096 Oct 30 20:49 [0m[01;34m.[0m
+drwxr-xr-x 3 userwoong2168 userwoong2168 4096 Oct 30 20:49 [01;34m..[0m
+-rw-r--r-- 1 userwoong2168 userwoong2168   12 Oct 30 20:47 renamed_sample.txt
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mrm sub_dir/renamed_sample.txt[27mrm sub_dir/renamed_sample.txt
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mls -la sub_dir[27mls -la sub_dir
+[?2004ltotal 8
+drwxr-xr-x 2 userwoong2168 userwoong2168 4096 Oct 30 20:50 [0m[01;34m.[0m
+drwxr-xr-x 3 userwoong2168 userwoong2168 4096 Oct 30 20:49 [01;34m..[0m
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mrmdir sub_dir[27mrmdir sub_dir
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mls -la[27mls -la
+[?2004ltotal 12
+drwxr-xr-x 2 userwoong2168 userwoong2168 4096 Oct 30 20:51 [0m[01;34m.[0m
+drwxr-xr-x 3 userwoong2168 userwoong2168 4096 Oct 30 20:39 [01;34m..[0m
+-rw-r--r-- 1 userwoong2168 userwoong2168    0 Oct 30 20:42 .hidden_config
+-rw-r--r-- 1 userwoong2168 userwoong2168   12 Oct 30 20:41 sample.txt
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mpwd[27m
+[7mls -la[27m[A]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ pwd
+ls -la
+[?2004l/home/userwoong2168/dev-workstation-environment/practice/test_dir
+total 12
+drwxr-xr-x 2 userwoong2168 userwoong2168 4096 Oct 30 20:51 [0m[01;34m.[0m
+drwxr-xr-x 3 userwoong2168 userwoong2168 4096 Oct 30 20:39 [01;34m..[0m
+-rw-r--r-- 1 userwoong2168 userwoong2168    0 Oct 30 20:42 .hidden_config
+-rw-r--r-- 1 userwoong2168 userwoong2168   12 Oct 30 20:41 sample.txt
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mpwd[27m
+[7mls -la[27m[A]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ pwd
+[1Pls -l[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[7mcd ~/dev-workstation-environment/practice/test_dir[27mcd ~/dev-workstation-environment/practice/test_dir
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mtouch test_perm_file.txt[27mtouch test_perm_file.txt
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mmkdir -p test_perm_dir[27mmkdir -p test_perm_dir
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mchmod 644 test_perm_file.txt[27mchmod 644 test_perm_file.txt
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mchmod 755 test_perm_dir[27mchmod 755 test_perm_dir
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mls -ld test_perm_file.txt test_perm_dir[27mls -ld test_perm_file.txt test_perm_dir
+[?2004ldrwxr-xr-x 2 userwoong2168 userwoong2168 4096 Oct 30 20:54 [0m[01;34mtest_perm_dir[0m
+-rw-r--r-- 1 userwoong2168 userwoong2168    0 Oct 30 20:54 test_perm_file.txt
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mchmod 600 test_perm_file.txt[27mchmod 600 test_perm_file.txt
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mchmod 700 test_perm_dir[27mchmod 700 test_perm_dir
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mls -ld test_perm_file.txt test_perm_dir[27mls -ld test_perm_file.txt test_perm_dir
+[?2004ldrwx------ 2 userwoong2168 userwoong2168 4096 Oct 30 20:54 [0m[01;34mtest_perm_dir[0m
+-rw------- 1 userwoong2168 userwoong2168    0 Oct 30 20:54 test_perm_file.txt
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mchmod 644 test_perm_file.txt[27mchmod 644 test_perm_file.txt
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mchmod 755 test_perm_dir[27mchmod 755 test_perm_dir
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mls -ld test_perm_file.txt test_perm_dir[27mls -ld test_perm_file.txt test_perm_dir
+[?2004ldrwxr-xr-x 2 userwoong2168 userwoong2168 4096 Oct 30 20:54 [0m[01;34mtest_perm_dir[0m
+-rw-r--r-- 1 userwoong2168 userwoong2168    0 Oct 30 20:54 test_perm_file.txt
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment/practice/test_dir[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment/practice/test_dir[00m$ [7mcd ~/dev-workstation-environment[27mcd ~/dev-workstation-environment
+[?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ pwd
+[?2004l/home/userwoong2168/dev-workstation-environment
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ [7mls -lh docs/logs/[27mls -lh docs/logs/
+[?2004ltotal 12K
+-rw-r--r-- 1 userwoong2168 userwoong2168 12K Oct 30 21:00 terminal-practice.log
+[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ exit
+[?2004lexit
+
+Script done on 2026-10-30 21:01:02+09:00 [COMMAND_EXIT_CODE="0"]
