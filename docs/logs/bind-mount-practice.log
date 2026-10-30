@@ -80,7 +80,7 @@ local     workstation-data
 [?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ [7mgit config --global init.defaultBranch main[27mgit config --global init.defaultBranch main
 [?2004l[?2004h]0;userwoong2168@4F-90: ~/dev-workstation-environment[01;32muserwoong2168@4F-90[00m:[01;34m~/dev-workstation-environment[00m$ [7mgit config --list[27mgit config --list
 [?2004l[?1h=user.name=userwoong2168[m
-user.email=woong21689@gmail.com[m
+user.email=[MASKED][m
 credential.https://github.com.helper=[m
 credential.https://github.com.helper=!/usr/bin/gh auth git-credential[m
 credential.https://gist.github.com.helper=[m
